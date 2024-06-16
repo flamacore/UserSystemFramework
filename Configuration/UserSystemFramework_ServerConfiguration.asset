@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78f56e57f3c046aab3a3160e174c7eaa, type: 3}
+  m_Name: UserSystemFramework_ServerConfiguration
+  m_EditorClassIdentifier: 
+  serverUrl: https://mechageddon.com/ProjectMBT/
+  databaseName: MBT_user_db
+  databaseEnvironment: 0
+  databaseVersion: 3
+  autoLoginOrRegister: 1
+  guestAccountPrefix: Guest
+  heartbeatInterval: 3000
